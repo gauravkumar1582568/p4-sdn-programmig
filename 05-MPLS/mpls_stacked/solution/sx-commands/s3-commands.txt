@@ -1,0 +1,5 @@
+# red path
+table_add mpls_tbl mpls_forward 2 0 => 00:00:00:04:01:00 2
+
+# return path
+table_add mpls_tbl penultimate 1 1 => 00:00:00:01:03:00 1
